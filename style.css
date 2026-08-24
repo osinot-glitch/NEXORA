@@ -1,0 +1,117 @@
+header{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+header button{
+    margin-top: 20px;
+    font-size: 17px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 200px;
+    font-weight: bold;
+    transition: 0.4s ease-in-out !important;
+    background-color: rgb(181, 103, 230);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header  button:hover{
+    color: rgb(39, 39, 39); 
+    background-color: rgb(194, 144, 224);
+    transform: translate(3px);
+}
+header a{
+    padding-top: 20px;
+    font-size: 22px;
+    text-decoration: none;
+  color: black;
+}
+header h2{
+    margin-top: 20px;
+    margin-right: 200px;
+    font-size: 28px;
+}
+body{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+main{
+   
+     justify-content: center;
+     gap: 100px;
+}
+.b1{
+    font-size: 15px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: rgb(181, 103, 230);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.4s ease-in-out !important;
+}
+.b1:hover{
+    color: rgb(39, 39, 39); 
+    background-color: rgb(194, 144, 224);
+    transform: translate(3px);
+}
+.b2{
+    font-size: 15px;
+    padding: 8px 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-left: 9px;
+    color: rgb(0, 0, 0); 
+    background-color: rgb(255, 255, 255);
+    transition: 0.4s ease-in-out !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.b2:hover{
+    background-color: rgb(208, 208, 208);
+    color: rgb(39, 39, 39);
+    transform: translate(3px);
+}
+.we h1{
+    font-size: 75px;
+}
+span{
+    color: #ad5ce0;
+}
+.we p{
+    font-size: 20px;
+    
+}
+.statistics{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 60px;
+    margin-top: 80px;
+}
+.statistics div{
+    border: 1px solid #ad5ce0 ;
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 5cm;
+    height: 3.5cm;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+.featured{
+ display: flex;
+ gap: 60px;
+ justify-content: center;
+ margin-top: 50px;
+}
+.featured div{
+    border: 1px solid;
+    border-radius: 8px;
+    text-align: center;
+}
+.featured img{
+    border-radius: 8px;
+}
