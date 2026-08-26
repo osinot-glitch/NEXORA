@@ -93,8 +93,8 @@ span{
     border: 1px solid #ad5ce0 ;
     border-radius: 10px;
     padding: 10px 30px;
-    width: 5cm;
-    height: 3.5cm;
+    width: 6cm;
+    height: 4cm;
 }
 .hero{
     display: flex;
@@ -103,7 +103,7 @@ span{
 }
 .featured{
  display: flex;
- gap: 60px;
+ gap: 80px;
  justify-content: center;
  margin-top: 50px;
 }
@@ -114,4 +114,138 @@ span{
 }
 .featured img{
     border-radius: 8px;
+}
+.Idea div{
+  background-color:  rgb(242, 219, 255);
+  padding: 1px 250px 10px;
+  text-align:center ;
+  border-radius: 15px;
+}
+.Idea button{
+ font-size: 15px;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: rgb(181, 103, 230);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.4s ease-in-out !important;
+}
+.Idea button:hover{
+    color: rgb(39, 39, 39); 
+    background-color: rgb(194, 144, 224);
+    transform: translateY(-3px);
+}
+.Idea{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.VOID{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+.our{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.whatwedo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.whatwedo div{
+    border: 1px solid rgb(198, 198, 198);
+    padding: 25px 110px 15px 60px;
+    border-radius: 10px;
+    width: 8cm;
+    height: 7cm;
+}
+.WEARE{
+    display: flex;
+    gap: 150px;
+    margin-top: 60px;
+    justify-content: center;
+}
+.WEARE h1{
+    font-size: 50px;
+    margin-top: 55px;
+}
+.WEARE p{
+    font-size: 19px;
+}
+.WEARE img{
+    border-radius: 10px;
+}
+.TEAM{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content:center ;
+}
+.TEAM img{
+    border-radius: 10px;
+}
+.VALUES{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center ;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+.VALUES div{
+    border: 1px solid #ad5ce0;
+    padding: 10px 130px 0px 40px;
+    border-radius: 10px;
+}
+.Contact{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 180px;
+}
+.lets{
+    font-size: 22px;
+}
+input{
+    padding: 15px 40px;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: 1px solid #ad5ce0;
+}
+#company{
+    padding: 15px 169px;
+}
+#project{
+    padding: 15px 80px;
+     border: 1px solid #ad5ce0;
+     color: #ad5ce0;
+}
+#budget{
+     padding: 15px 94px;
+     margin-top: 15px;
+      border: 1px solid #ad5ce0;
+      color: #ad5ce0;
+}
+#message{
+    margin-top: 15px;
+     border: 1px solid #ad5ce0;
+}
+#submit{
+     padding: 15px 190px;
+     background-color: #ad5ce0;
+     font-weight: bold;
+     font-size: 18px;
+     border: none;
+}
+.send{
+    margin-top: 50px;
+}
+::placeholder{
+    color: #ad5ce0;
+    text-align: center;
 }
